@@ -44,15 +44,17 @@ CREATE DATABASE tasksdb;
   spring.datasource.password=TU_CONTRASEÑA
 
 ### 3. Ejecuta la aplicación
+```
 mvn spring-boot:run
 Accede a la app en:
 📍 http://localhost:8080/tasks
-
+```
 
 ## 🖼️ Capturas de pantalla
 ![image](https://github.com/user-attachments/assets/8c3f8f4e-461f-479d-b484-e77ae6a76164)
 
 ## 📁 Estructura básica del proyecto
+```
 ├── src
 │   ├── main
 │   │   ├── java
@@ -64,7 +66,7 @@ Accede a la app en:
 │   │       ├── templates
 │   │       │   └── index.html
 │   │       └── application.properties
-
+```
 ## 🙋‍♂️ Autor
 Jonathan Hendrix
 LinkedIn
